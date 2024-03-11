@@ -8,7 +8,5 @@ describe('testing cross origin', () => {
       cy.get('#email').should('be.visible').type('handsomezy@gmail.com')
       cy.get('select').select('JavaScript')
     })
-    // cy.get('#email').should('be.visible').type('handsomezy@gmail.com')
-    // cy.get('select').select('JavaScript')
   })
 })
